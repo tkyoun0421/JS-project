@@ -9,6 +9,7 @@ let tens = 0
 let Interval
 
 startBtn.addEventListener('click', function(){
+    stopTimer()
     Interval = setInterval(startTimer, 10)
 }) 
 
