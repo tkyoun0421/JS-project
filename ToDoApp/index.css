@@ -1,0 +1,33 @@
+body {
+  width: 600px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.item form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-content {
+  width: 100%;
+}
+
+.form-content input:last-child {
+  width: 80%;
+}
+
+.form-util {
+  display: flex;
+  justify-content: space-between;
+}
