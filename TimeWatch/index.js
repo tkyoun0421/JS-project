@@ -26,8 +26,7 @@ function startTimer() {
     tens++
     if (tens <= 99) {
         tensEl.innerHTML = tens;
-    }
-    if (tens > 99) {
+    } else {
         seconds++
         secondsEl.innerHTML = seconds
         tens = 0

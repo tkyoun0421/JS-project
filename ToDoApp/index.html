@@ -1,21 +1,27 @@
 <!DOCTYPE html>
-<html lang="ko">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="./index.css">
-  <script src="./index.js" defer></script>
-  <script src="https://kit.fontawesome.com/97e703ac45.js" crossorigin="anonymous"></script>
-</head>
-<body>
-  <header>
-    <h1>Todos 앱</h1>
-    <button type="button" class="todo_btn--add">새로운 TODO 추가하기</button>
-  </header>
-  <main>
-    <div class="contaienr"></div>
-  </main>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <main>
+      <div class="app">
+        <header>
+          <h1>Todo 앱</h1>
+          <button id="create-btn">새로운 todo 추가하기</button>
+        </header>
+
+        <div class="todo-list" id="list"></div>
+      </div>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
 </html>
